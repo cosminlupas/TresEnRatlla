@@ -87,7 +87,6 @@ function enableAllButtons() {
     })
 }
 
-
 function comprovar_fila(fila) {
   var values = getValuesFila(fila);
   return values;
