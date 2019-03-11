@@ -1,0 +1,11 @@
+.invisible {
+  display: none;
+}
+
+.display-3 {
+    text-align: center;
+}
+
+label {
+  color: white;
+}

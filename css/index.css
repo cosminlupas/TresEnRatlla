@@ -1,0 +1,18 @@
+.row {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.btn-dark {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 15px;
+  height: 4vh;
+}
+
+.display-3 {
+    text-align: center;
+}
