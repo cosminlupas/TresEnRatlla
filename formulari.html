@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulari</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/formulari.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="./js/formulari.js"></script>
+</head>
+
+<body class="white">
+  <div class="container">
+    <center><h1>Formulari</h1></center>
+    <form id="form1" action="3enratlla.html" onsubmit="return isValidForm()">
+      <div class="form-group">
+        <label for="nom">Nom</label>
+        <input type="text" class="form-control" id="nom" name="nom" aria-describedby="nomHelp" placeholder="Nom" onfocusout="upperCase(this)">
+        <small id="nomHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="cognoms">Cognoms</label>
+        <input type="text" class="form-control" id="cognoms" name="cognoms" aria-describedby="cognomsHelp" placeholder="Cognoms" onfocusout="upperCase(this)">
+        <small id="cognomsHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="edat">Edat</label>
+        <input type="number" class="form-control" id="edat" name="edat" aria-describedby="edatHelp" placeholder="Edat" min="0" max="105">
+        <small id="edatHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="dni">DNI</label>
+        <input type="text" class="form-control" id="dni" name="dni" aria-describedby="dniHelp" placeholder="DNI">
+        <small id="dniHelp" class="form-text text-muted"></small>
+      </div>
+      <input type="text" class="invisible" id="nom2" name="nom2" placeholder="Nom2">
+      <input type="text" class="invisible" id="cognoms2" name="cognoms2" placeholder="Cognoms2">
+      <input type="text" class="invisible" id="email2" name="email2" placeholder="Email2">
+      <input type="text" class="invisible" id="dni2" name="dni2" placeholder="DNI2">
+      <input type="text" class="invisible" id="edat2" name="edat2" placeholder="Edat2">
+      <button type="submit" class="btn ">Submit</button>
+</form>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
