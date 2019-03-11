@@ -19,6 +19,7 @@ function tractar_btn(btn) {
     case casos[4]:
       url = "./credits.html";
       break;
+      
   }
   window.location.replace(url);
 }
